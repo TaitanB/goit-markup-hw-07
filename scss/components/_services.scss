@@ -1,0 +1,28 @@
+.services {
+  padding-top: 0;
+
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__thumb {
+    position: relative;
+  }
+
+  &__description {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    font-weight: 700;
+    line-height: 1.143;
+    text-transform: uppercase;
+    color: $text-color-theme-dark;
+    background-color: #2f303a;
+    opacity: 80%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

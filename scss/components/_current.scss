@@ -1,0 +1,14 @@
+.current {
+  color: $accent-color;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: $accent-color;
+    border-radius: 2px;
+    bottom: -1.5px;
+    left: 0;
+  }
+}
